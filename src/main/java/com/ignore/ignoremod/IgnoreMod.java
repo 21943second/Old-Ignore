@@ -123,6 +123,8 @@ public class IgnoreMod
         // This is someone else sending a message
         String message = event.getMessage().getString().toLowerCase();
 
+        if(!message.contains(":")) return;
+
         String sender = message.split(":")[0];
         if (sender.contains(".")) {
             sender = sender.split("\\.")[1];

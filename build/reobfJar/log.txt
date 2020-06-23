@@ -1,4 +1,4 @@
-Args: "--in-jar", "/home/twoonesecond/Downloads/forge/mod/build/libs/IgnoreMod-1.0.jar", "--out-jar", "/home/twoonesecond/Downloads/forge/mod/build/reobfJar/output.jar", "--srg-in", "/home/twoonesecond/Downloads/forge/mod/build/createMcpToSrg/output.tsrg", "--live"
+Args: "--in-jar", "/home/twoonesecond/Downloads/forge/mod/build/libs/IgnoreMod-1.1.jar", "--out-jar", "/home/twoonesecond/Downloads/forge/mod/build/reobfJar/output.jar", "--srg-in", "/home/twoonesecond/Downloads/forge/mod/build/createMcpToSrg/output.tsrg", "--live"
 Classpath: /home/twoonesecond/.gradle/caches/forge_gradle/maven_downloader/net/md-5/SpecialSource/1.8.3/SpecialSource-1.8.3-shaded.jar
 Classpath: /home/twoonesecond/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.21_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.21_mapped_snapshot_20200514-1.15.1-recomp.jar
 Classpath: /home/twoonesecond/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.21_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.21_mapped_snapshot_20200514-1.15.1-launcher.jar
