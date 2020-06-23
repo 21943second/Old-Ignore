@@ -7,15 +7,15 @@
 [22Jun2020 01:47:26.690] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
 [22Jun2020 01:47:28.421] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.21, for MC 1.15.2 with MCP 20200515.085601
 [22Jun2020 01:47:28.421] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.21 Initialized
-[22Jun2020 01:47:28.652] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from Register Block
+[22Jun2020 01:47:28.652] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: HELLO from Register Block
 [22Jun2020 01:47:31.835] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
 [22Jun2020 01:47:31.998] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[22Jun2020 01:47:32.055] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM PREINIT
-[22Jun2020 01:47:32.055] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
-[22Jun2020 01:47:32.209] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: Got game settings net.minecraft.client.GameSettings@6771a50c
+[22Jun2020 01:47:32.055] [modloading-worker-4/INFO] [com.example.ignoremod.ExampleMod/]: HELLO FROM PREINIT
+[22Jun2020 01:47:32.055] [modloading-worker-4/INFO] [com.example.ignoremod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[22Jun2020 01:47:32.209] [modloading-worker-4/INFO] [com.example.ignoremod.ExampleMod/]: Got game settings net.minecraft.client.GameSettings@6771a50c
 [22Jun2020 01:47:32.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[22Jun2020 01:47:36.168] [modloading-worker-6/INFO] [com.example.examplemod.ExampleMod/]: Hello world from the MDK
-[22Jun2020 01:47:36.168] [modloading-worker-6/INFO] [com.example.examplemod.ExampleMod/]: Got IMC [Hello world]
+[22Jun2020 01:47:36.168] [modloading-worker-6/INFO] [com.example.ignoremod.ExampleMod/]: Hello world from the MDK
+[22Jun2020 01:47:36.168] [modloading-worker-6/INFO] [com.example.ignoremod.ExampleMod/]: Got IMC [Hello world]
 [22Jun2020 01:47:37.133] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
 [22Jun2020 01:47:37.135] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
 [22Jun2020 01:47:37.473] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
@@ -70,7 +70,7 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 [22Jun2020 01:48:17.644] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
 [22Jun2020 01:48:17.644] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
 [22Jun2020 01:48:18.063] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 40%
-[22Jun2020 01:48:18.410] [Server thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from server starting
+[22Jun2020 01:48:18.410] [Server thread/INFO] [com.example.ignoremod.ExampleMod/]: HELLO from server starting
 [22Jun2020 01:48:18.420] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2475 ms
 [22Jun2020 01:48:25.113] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [22Jun2020 01:48:25.115] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
@@ -83,20 +83,20 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 [22Jun2020 01:48:42.389] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
 [22Jun2020 01:48:42.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Testing'/minecraft:overworld
 [22Jun2020 01:48:42.763] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7 advancements
-[22Jun2020 01:48:49.538] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: MESSAGE
-[22Jun2020 01:48:49.549] [Render thread/INFO] [STDOUT/]: [com.example.examplemod.ExampleMod:onClientChatEvent:91]: We got one
+[22Jun2020 01:48:49.538] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: MESSAGE
+[22Jun2020 01:48:49.549] [Render thread/INFO] [STDOUT/]: [com.example.ignoremod.ExampleMod:onClientChatEvent:91]: We got one
 [22Jun2020 01:48:49.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Dev> hello
 [22Jun2020 01:48:49.597] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] <Dev> hello
-[22Jun2020 01:48:54.652] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: MESSAGE
-[22Jun2020 01:48:54.652] [Render thread/INFO] [STDOUT/]: [com.example.examplemod.ExampleMod:onClientChatEvent:91]: We got one
-[22Jun2020 01:48:54.652] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: NOO
-[22Jun2020 01:48:58.083] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: MESSAGE
-[22Jun2020 01:48:58.084] [Render thread/INFO] [STDOUT/]: [com.example.examplemod.ExampleMod:onClientChatEvent:91]: We got one
+[22Jun2020 01:48:54.652] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: MESSAGE
+[22Jun2020 01:48:54.652] [Render thread/INFO] [STDOUT/]: [com.example.ignoremod.ExampleMod:onClientChatEvent:91]: We got one
+[22Jun2020 01:48:54.652] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: NOO
+[22Jun2020 01:48:58.083] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: MESSAGE
+[22Jun2020 01:48:58.084] [Render thread/INFO] [STDOUT/]: [com.example.ignoremod.ExampleMod:onClientChatEvent:91]: We got one
 [22Jun2020 01:48:58.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Dev> noo
 [22Jun2020 01:48:58.086] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] <Dev> noo
-[22Jun2020 01:49:00.080] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: MESSAGE
-[22Jun2020 01:49:00.082] [Render thread/INFO] [STDOUT/]: [com.example.examplemod.ExampleMod:onClientChatEvent:91]: We got one
-[22Jun2020 01:49:00.082] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: NOO
+[22Jun2020 01:49:00.080] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: MESSAGE
+[22Jun2020 01:49:00.082] [Render thread/INFO] [STDOUT/]: [com.example.ignoremod.ExampleMod:onClientChatEvent:91]: We got one
+[22Jun2020 01:49:00.082] [Render thread/INFO] [com.example.ignoremod.ExampleMod/]: NOO
 [22Jun2020 01:49:03.857] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
 [22Jun2020 01:49:03.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Testing'/minecraft:overworld
 [22Jun2020 01:49:06.925] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
